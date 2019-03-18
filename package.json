@@ -1,0 +1,25 @@
+{
+  "name": "tunnel",
+  "version": "1.0.0",
+  "description": "Nodejs bindings for LambdaTest Tunnel",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "eslint lib/* index.js",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kanhaiya15/tunnel.git"
+  },
+  "author": "Kanhaiya Lal Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kanhaiya15/tunnel/issues"
+  },
+  "homepage": "https://github.com/kanhaiya15/tunnel#readme",
+  "dependencies": {
+    "https-proxy-agent": "^2.2.1",
+    "is-running": "^2.1.0",
+    "ps-tree": "^1.2.0"
+  }
+}
