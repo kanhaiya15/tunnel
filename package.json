@@ -18,8 +18,10 @@
   },
   "homepage": "https://github.com/kanhaiya15/tunnel#readme",
   "dependencies": {
+    "get-port": "^1.0.0",
     "https-proxy-agent": "^2.2.1",
     "is-running": "^2.1.0",
-    "ps-tree": "^1.2.0"
+    "ps-tree": "^1.2.0",
+    "split": "^1.0.1"
   }
 }
