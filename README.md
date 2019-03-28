@@ -1,4 +1,4 @@
-Nodejs bindings for Kanhaiya Tunnel.
+Nodejs bindings for Tunnel.
 
 ## Installation
 
