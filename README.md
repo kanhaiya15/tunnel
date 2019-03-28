@@ -3,13 +3,13 @@ Nodejs bindings for Kanhaiya Tunnel.
 ## Installation
 
 ```
-npm install @kanhaiya/tunnel
+npm install @kanhaiyalalsingh/tunnel
 ```
 
 ## Example
 
 ```js
-var tunnel = require('@kanhaiya/tunnel');
+var tunnel = require('@kanhaiyalalsingh/tunnel');
 
 //creates an instance of Tunnel
 var myTunnel = new tunnel.Tunnel();
