@@ -60,3 +60,19 @@ tunnel4.start({ key: 'jbhUoF5lLRIjAN9DGp4jtoQZaGCyLUXEelRf76m4ZVbrKR3KFo', user:
 // var Logger = require('./lib/ELKLogger');
 // var elkLogger = new Logger();
 // elkLogger._log();
+
+
+// var getPort = require('get-port');
+// function _getFreePort(options, fnCallback){
+//   getPort(function (e, port) {
+//     if(e) {
+//       ELKLogger(options['user'], options['key'], { filename: __filename }, ('Error trying to get Free Port on LambdaTest Tunnel' + e));
+//       throw Error('Error trying to get Free Port on LambdaTest Tunnel, Please contact support' + e);
+//     }
+//     return fnCallback(false, port);
+//   });
+// }
+
+// _getFreePort({ key: 'jbhUoF5lLRIjAN9DGp4jtoQZaGCyLUXEelRf76m4ZVbrKR3KFo', user:'kanhaiya1501@gmail.com' }, function(e, port) {
+//   console.log(port)
+// })
