@@ -1,7 +1,7 @@
 {
-  "name": "tunnel",
+  "name": "@kanhaiya15/tunnel",
   "version": "1.0.0",
-  "description": "Nodejs bindings for LambdaTest Tunnel",
+  "description": "Nodejs bindings for Kanhaiya Tunnel",
   "main": "index.js",
   "scripts": {
     "pretest": "eslint lib/* index.js",
@@ -21,9 +21,7 @@
     "elasticsearch": "^13.3.1",
     "get-port": "^1.0.0",
     "https-proxy-agent": "^2.2.1",
-    "is-running": "^2.1.0",
     "node-fetch": "^2.3.0",
-    "ps-tree": "^1.2.0",
     "split": "^1.0.1"
   }
 }
