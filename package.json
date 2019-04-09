@@ -1,6 +1,6 @@
 {
   "name": "@kanhaiyalalsingh/tunnel",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Nodejs bindings for Kanhaiya Tunnel",
   "main": "index.js",
   "repository": "kanhaiya15/tunnel",
