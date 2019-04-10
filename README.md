@@ -12,23 +12,22 @@ npm install @kanhaiyalalsingh/tunnel
 var lambdaTunnel = require('@kanhaiyalalsingh/tunnel');
 
 //creates an instance of Tunnel
-var myLambdaTunnel = new lambdaTunnel.Tunnel();
+var tunnelInstance = new lambdaTunnel.Tunnel();
 
 // replace <lambdatest-user> with your user and <lambdatest-accesskey> with your key.
 var tunnelArguments = { 'user': '<lambdatest-user>', 'key': '<lambdatest-accesskey>' };
 
 // starts the Tunnl instance with the required arguments
-myLambdaTunnel.start(tunnelArguments, function(e, status) {
+tunnelInstance.start(tunnelArguments, function(e, status) {
   if(!e) {
     console.log("Started Tunnel " + status);
   }
   // check if Tunnel instance is running
-	console.log(myLambdaTunnel.isRunning());
-
-	// stop the Tunnel instance
-	myLambdaTunnel.stop(function() {
-	  console.log("Stopped Tunnel");
-	});
+  console.log(tunnelInstance.isRunning());
+  // stop the Tunnel instance
+  tunnelInstance.stop(function() {
+    console.log("Stopped Tunnel");
+  });
 });
 ```
 
