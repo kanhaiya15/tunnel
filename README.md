@@ -57,14 +57,14 @@ Use the below modifier if you wish to run only Automation testing, and abort Rea
 ```js
 lt_local_args = { 'key': '<lambdatest-accesskey>', 'onlyAutomate': 'true' }
 or
-	lt_local_args = { 'key': '<lambdatest-accesskey>', 'onlyautomate': 'true' }
+lt_local_args = { 'key': '<lambdatest-accesskey>', 'onlyautomate': 'true' }
 ```
 #### Force Local
 Use the below modifier for routing all the traffic through your local machine.
 ```js
-	lt_local_args = { 'key': '<lambdatest-accesskey>', 'forceLocal': 'true' }
-	or 
-	lt_local_args = { 'key': '<lambdatest-accesskey>', 'forcelocal': 'true' }
+lt_local_args = { 'key': '<lambdatest-accesskey>', 'forceLocal': 'true' }
+or 
+lt_local_args = { 'key': '<lambdatest-accesskey>', 'forcelocal': 'true' }
 ```
 #### Proxy
 If you wish to perform local testing using a proxy.
@@ -89,9 +89,9 @@ lt_local_args = { 'key': '<lambdatest-accesskey>', 'localIdentifier': 'randomstr
 #### Binary Path
 Local wrappers at LambdaTest, by default, will download & execute the latest version of Lambda Tunnel binary file in ~/.lambdatest or the present working directory or the tmp folder by order. However, if you wish to override these,then you can do so by passing the -binarypath argument. Below is the path where you would have to specify your local binary path -
 ```js
-  lt_local_args = { 'key': '<lambdatest-accesskey>', 'binarypath': '/lambdatest/LambdaTestLocal' }
-	or
-	lt_local_args = { 'key': '<lambdatest-accesskey>', 'binarypath': '/lambdatest/lambdatestlocal' }
+lt_local_args = { 'key': '<lambdatest-accesskey>', 'binarypath': '/lambdatest/LambdaTestLocal' }
+or
+lt_local_args = { 'key': '<lambdatest-accesskey>', 'binarypath': '/lambdatest/lambdatestlocal' }
 ```
 #### Logfile
 While executing the '-verbose' or '-v' argument, you can save the entire logs in a file. You can provide a specific path to this file. If you won't provide a path then the logs would be saved in your present working directory by the filename: local.log. For providing a specific path use the below argument:
