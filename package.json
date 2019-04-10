@@ -6,6 +6,13 @@
   "repository": "kanhaiya15/tunnel",
   "author": "Kanhaiya Lal Singh",
   "license": "ISC",
+  "keywords": [
+    "LambdaTest",
+    "Tunnel",
+    "Local",
+    "selenium",
+    "testing"
+  ],
   "bugs": {
     "url": "https://github.com/kanhaiya15/tunnel/issues"
   },
