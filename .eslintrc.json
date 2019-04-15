@@ -1,17 +1,8 @@
 {
   "rules": {
-    "indent": [
-      1,
-      2
-    ],
-    "quotes": [
-      2,
-      "single"
-    ],
-    "semi": [
-      2,
-      "always"
-    ],
+    "indent": [1, 2],
+    "quotes": [2, "single"],
+    "semi": [2, "always"],
     "no-console": 0,
     "no-trailing-spaces": 2,
     "no-irregular-whitespace": 2,

@@ -25,5 +25,8 @@
     "unzip": "^0.1.11",
     "winston": "^3.2.1",
     "winston-elasticsearch": "^0.7.9"
+  },
+  "devDependencies": {
+    "clang-format": "^1.2.4"
   }
 }
